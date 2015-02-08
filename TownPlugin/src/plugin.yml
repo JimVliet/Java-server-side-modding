@@ -1,0 +1,17 @@
+name: TownPlugin
+main: Main.Main
+description: Main
+version: 1.0
+commands:
+   createtown:
+      description: Create a town.
+      permission: TownPlugin.CreateTown
+      permission-message: You don't have permission
+   mytown:
+      description: Show info about your town.
+      permission: TownPlugin.MyTown
+      permission-message: You don't have permission
+   template:
+      description: Template command.
+      permission: TownPlugin.Template
+      permission-message: You don't have permission
